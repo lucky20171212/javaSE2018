@@ -14,4 +14,8 @@ public class Person {
 		this.age = age;
 	}
 	
+	public void showInfo(){
+		System.out.println(name + "  " + age);
+	}
+	
 }
